@@ -38,6 +38,8 @@ body.site-bg{background: radial-gradient(900px 400px at 10% 10%, rgba(124,58,237
 .badges .badge{margin-right:6px}
 .neon-badge{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;padding:6px 8px;border-radius:8px;font-size:.8rem}
 
+
+
 /* orb */
 .orb{position:absolute;right:-40px;top:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(124,58,237,0.95), rgba(124,58,237,0.25) 40%, rgba(6,182,212,0.06) 70%);mix-blend-mode:screen;filter:blur(28px);pointer-events:none;animation:floaty 6s ease-in-out infinite}
 @keyframes floaty{0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
